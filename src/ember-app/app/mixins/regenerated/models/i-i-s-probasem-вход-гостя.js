@@ -28,8 +28,6 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ВходГостяE', 'i-i-s-probasem-вход-гостя', {
-    регисКартГостей: belongsTo('i-i-s-probasem-регис-карт-гостей', 'Регис карт гостей', {
-      дата: attr('Дата', { index: 1, hidden: true })
-    }, { index: 0, displayMemberPath: 'дата' })
+    
   });
 };

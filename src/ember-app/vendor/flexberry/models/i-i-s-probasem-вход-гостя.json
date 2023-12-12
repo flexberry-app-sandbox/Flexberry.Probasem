@@ -28,29 +28,7 @@
       "name": "ВходГостяE",
       "modelName": "i-i-s-probasem-вход-гостя",
       "attrs": [],
-      "belongsTo": [
-        {
-          "lookupValue": "Дата",
-          "lookupValueField": "дата",
-          "relationName": "РегисКартГостей",
-          "belongsTo": [],
-          "hidden": false,
-          "attrs": [
-            {
-              "name": "дата",
-              "caption": "Дата",
-              "hidden": true,
-              "index": 1
-            }
-          ],
-          "index": 0,
-          "type": "standard",
-          "caption": "Регис карт гостей",
-          "name": "регисКартГостей",
-          "relatedTo": "i-i-s-probasem-регис-карт-гостей",
-          "inverse": null
-        }
-      ],
+      "belongsTo": [],
       "hasMany": []
     }
   ],

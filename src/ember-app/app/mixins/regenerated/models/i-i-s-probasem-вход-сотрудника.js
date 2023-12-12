@@ -28,16 +28,6 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ВходСотрудникаE', 'i-i-s-probasem-вход-сотрудника', {
-    регКартСотруд: belongsTo('i-i-s-probasem-рег-карт-сотруд', 'ФИО', {
-      сотрудник: belongsTo('i-i-s-probasem-сотрудник', '', {
-        фИО: attr('ФИО', { index: 0 }),
-        должность: belongsTo('i-i-s-probasem-должность', '', {
-          должность: attr('Должность', { index: 1 })
-        }, { index: -1, hidden: true })
-      }, { index: -1, hidden: true }),
-      карта: belongsTo('i-i-s-probasem-карта', '', {
-        кодКарты: attr('', { index: 2 })
-      }, { index: -1, hidden: true })
-    }, { index: -1, hidden: true })
+    
   });
 };

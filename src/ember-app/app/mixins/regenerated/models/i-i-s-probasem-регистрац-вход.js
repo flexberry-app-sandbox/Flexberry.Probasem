@@ -49,22 +49,10 @@ export let defineProjections = function (modelClass) {
       номер: attr('Номер', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'номер' }),
     входСотрудника: hasMany('i-i-s-probasem-вход-сотрудника', 'Вход сотрудника', {
-      регКартСотруд: belongsTo('i-i-s-probasem-рег-карт-сотруд', 'ФИО', {
-        сотрудник: belongsTo('i-i-s-probasem-сотрудник', '', {
-          фИО: attr('ФИО', { index: 0 }),
-          должность: belongsTo('i-i-s-probasem-должность', '', {
-            должность: attr('Должность', { index: 1 })
-          }, { index: -1, hidden: true })
-        }, { index: -1, hidden: true }),
-        карта: belongsTo('i-i-s-probasem-карта', '', {
-          кодКарты: attr('', { index: 2 })
-        }, { index: -1, hidden: true })
-      }, { index: -1, hidden: true })
+      
     }),
     входГостя: hasMany('i-i-s-probasem-вход-гостя', 'Вход гостя', {
-      регисКартГостей: belongsTo('i-i-s-probasem-регис-карт-гостей', 'Регис карт гостей', {
-        дата: attr('Дата', { index: 1, hidden: true })
-      }, { index: 0, displayMemberPath: 'дата' })
+      
     })
   });
 

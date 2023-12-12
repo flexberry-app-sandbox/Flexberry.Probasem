@@ -7,14 +7,6 @@
       "relationName": "Комната",
       "projection": "КомнатаL",
       "detailModelName": null
-    },
-    {
-      "master": "регисКартГостей",
-      "displayAttributeName": "дата",
-      "required": true,
-      "relationName": "ВходГостя.РегисКартГостей",
-      "projection": "РегисКартГостейL",
-      "detailModelName": "i-i-s-probasem-вход-гостя"
     }
   ],
   "external": false,

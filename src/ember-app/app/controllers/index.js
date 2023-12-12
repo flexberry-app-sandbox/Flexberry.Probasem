@@ -22,47 +22,48 @@ export default Controller.extend({
             link: 'i-i-s-probasem-должность-l',
             caption: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-должность-l.title'),
-            icon: 'folder',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-probasem-регистрац-вход-l',
             caption: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-регистрац-вход-l.caption'),
             title: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-регистрац-вход-l.title'),
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-probasem-регис-карт-гостей-l',
             caption: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-регис-карт-гостей-l.caption'),
             title: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-регис-карт-гостей-l.title'),
-            icon: 'edit',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-probasem-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-сотрудник-l.title'),
-            icon: 'chart bar',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-probasem-рег-карт-сотруд-l',
             caption: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-рег-карт-сотруд-l.caption'),
             title: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-рег-карт-сотруд-l.title'),
-            icon: 'briefcase',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-probasem-комната-l',
             caption: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-комната-l.title'),
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-probasem-карта-l',
             caption: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-карта-l.caption'),
             title: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-карта-l.title'),
-            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-probasem-гость-l',
             caption: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-гость-l.caption'),
             title: i18n.t('forms.application.sitemap.probasem.i-i-s-probasem-гость-l.title'),
-            icon: 'file',
+            icon: 'suitcase',
             children: null
           }]
         }
