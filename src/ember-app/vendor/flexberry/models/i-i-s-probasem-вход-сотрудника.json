@@ -1,0 +1,118 @@
+﻿{
+  "name": "IISProbasemВходСотрудника",
+  "modelName": "i-i-s-probasem-вход-сотрудника",
+  "className": "ВходСотрудника",
+  "nameSpace": "IIS.Probasem",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регКартСотруд",
+      "relatedTo": "i-i-s-probasem-рег-карт-сотруд",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регистрацВход",
+      "relatedTo": "i-i-s-probasem-регистрац-вход",
+      "inverse": "входСотрудника"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВходСотрудникаE",
+      "modelName": "i-i-s-probasem-вход-сотрудника",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "РегКартСотруд",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "РегКартСотруд.Сотрудник",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "РегКартСотруд.Сотрудник.Должность",
+                  "belongsTo": [],
+                  "hidden": false,
+                  "attrs": [
+                    {
+                      "name": "должность",
+                      "caption": "Должность",
+                      "hidden": false,
+                      "index": 1
+                    }
+                  ],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "должность",
+                  "relatedTo": "i-i-s-probasem-должность",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фИО",
+                  "caption": "ФИО",
+                  "hidden": false,
+                  "index": 0
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "сотрудник",
+              "relatedTo": "i-i-s-probasem-сотрудник",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "РегКартСотруд.Карта",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "кодКарты",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "карта",
+              "relatedTo": "i-i-s-probasem-карта",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "регКартСотруд",
+          "relatedTo": "i-i-s-probasem-рег-карт-сотруд",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

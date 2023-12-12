@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Probasem.Objects", "Objects/Probasem.Objects.csproj", "ac86d459-16de-4d6c-9f17-0f2447b32c60"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Probasem.Tests", "Tests/Probasem.Tests.csproj", "8a6b5b8e-cdb1-4678-9230-669229f5b0f2"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Probasem.ODataBackend", "ODataBackend/Probasem.ODataBackend.csproj", "ccdbd02e-c98f-4711-b5d5-16843feb825f"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Probasem.IntegrationTests", "IntegrationTests/Probasem.IntegrationTests.csproj", "4250ac25-fc4a-49e1-b9a4-5fe6fbe263cf"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		ac86d459-16de-4d6c-9f17-0f2447b32c60.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		ac86d459-16de-4d6c-9f17-0f2447b32c60.Debug|Any CPU.Build.0 = Debug|Any CPU
+		ac86d459-16de-4d6c-9f17-0f2447b32c60.Release|Any CPU.ActiveCfg = Release|Any CPU
+		ac86d459-16de-4d6c-9f17-0f2447b32c60.Release|Any CPU.Build.0 = Release|Any CPU
+		8a6b5b8e-cdb1-4678-9230-669229f5b0f2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		8a6b5b8e-cdb1-4678-9230-669229f5b0f2.Debug|Any CPU.Build.0 = Debug|Any CPU
+		8a6b5b8e-cdb1-4678-9230-669229f5b0f2.Release|Any CPU.ActiveCfg = Release|Any CPU
+		8a6b5b8e-cdb1-4678-9230-669229f5b0f2.Release|Any CPU.Build.0 = Release|Any CPU
+		ccdbd02e-c98f-4711-b5d5-16843feb825f.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		ccdbd02e-c98f-4711-b5d5-16843feb825f.Debug|Any CPU.Build.0 = Debug|Any CPU
+		ccdbd02e-c98f-4711-b5d5-16843feb825f.Release|Any CPU.ActiveCfg = Release|Any CPU
+		ccdbd02e-c98f-4711-b5d5-16843feb825f.Release|Any CPU.Build.0 = Release|Any CPU
+		4250ac25-fc4a-49e1-b9a4-5fe6fbe263cf.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4250ac25-fc4a-49e1-b9a4-5fe6fbe263cf.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4250ac25-fc4a-49e1-b9a4-5fe6fbe263cf.Release|Any CPU.ActiveCfg = Release|Any CPU
+		4250ac25-fc4a-49e1-b9a4-5fe6fbe263cf.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

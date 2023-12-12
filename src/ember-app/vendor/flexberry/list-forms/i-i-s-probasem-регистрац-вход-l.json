@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probasem-регистрац-вход-e",
+  "editForm": "i-i-s-probasem-регистрац-вход-e",
+  "external": false,
+  "caption": "Регистрац вход",
+  "name": "IISProbasemРегистрацВходL",
+  "className": "РегистрацВходL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probasem-регистрац-вход",
+      "modelProjection": "РегистрацВходL"
+    }
+  ]
+}

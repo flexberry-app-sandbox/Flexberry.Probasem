@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISProbasemКарта",
+  "modelName": "i-i-s-probasem-карта",
+  "className": "Карта",
+  "nameSpace": "IIS.Probasem",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодКарты",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "типКарты",
+      "type": "i-i-s-probasem-вид-карты",
+      "flexberryType": "ВидКарты",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КартаE",
+      "modelName": "i-i-s-probasem-карта",
+      "attrs": [
+        {
+          "name": "кодКарты",
+          "caption": "Код карты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типКарты",
+          "caption": "Тип карты",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КартаL",
+      "modelName": "i-i-s-probasem-карта",
+      "attrs": [
+        {
+          "name": "кодКарты",
+          "caption": "Код карты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типКарты",
+          "caption": "Тип карты",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

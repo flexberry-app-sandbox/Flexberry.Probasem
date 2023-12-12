@@ -1,0 +1,1 @@
+docker-compose -p probasem-java up -d

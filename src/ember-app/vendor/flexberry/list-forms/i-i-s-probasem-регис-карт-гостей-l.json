@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probasem-регис-карт-гостей-e",
+  "editForm": "i-i-s-probasem-регис-карт-гостей-e",
+  "external": false,
+  "caption": "Регис карт гостей",
+  "name": "IISProbasemРегисКартГостейL",
+  "className": "РегисКартГостейL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probasem-регис-карт-гостей",
+      "modelProjection": "РегисКартГостейL"
+    }
+  ]
+}

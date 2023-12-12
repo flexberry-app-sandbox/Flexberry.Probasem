@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probasem-рег-карт-сотруд-e",
+  "editForm": "i-i-s-probasem-рег-карт-сотруд-e",
+  "external": false,
+  "caption": "Рег карт сотруд",
+  "name": "IISProbasemРегКартСотрудL",
+  "className": "РегКартСотрудL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probasem-рег-карт-сотруд",
+      "modelProjection": "РегКартСотрудL"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Probasem",
+  "applicationTitle": "Probasem",
+  "items": [
+    {
+      "link": null,
+      "menuName": "probasem",
+      "caption": "Probasem",
+      "title": "Probasem",
+      "children": [
+        {
+          "link": "i-i-s-probasem-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probasem-регистрац-вход-l",
+          "menuName": null,
+          "caption": "Регистрац вход",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probasem-регис-карт-гостей-l",
+          "menuName": null,
+          "caption": "Регис карт гостей",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probasem-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probasem-рег-карт-сотруд-l",
+          "menuName": null,
+          "caption": "Рег карт сотруд",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probasem-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probasem-карта-l",
+          "menuName": null,
+          "caption": "Карта",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probasem-гость-l",
+          "menuName": null,
+          "caption": "Гость",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

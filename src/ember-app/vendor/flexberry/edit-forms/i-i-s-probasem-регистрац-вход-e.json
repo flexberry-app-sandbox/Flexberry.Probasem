@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Комната",
+      "projection": "КомнатаL",
+      "detailModelName": null
+    },
+    {
+      "master": "регисКартГостей",
+      "displayAttributeName": "дата",
+      "required": true,
+      "relationName": "ВходГостя.РегисКартГостей",
+      "projection": "РегисКартГостейL",
+      "detailModelName": "i-i-s-probasem-вход-гостя"
+    }
+  ],
+  "external": false,
+  "caption": "Регистрац вход",
+  "name": "IISProbasemРегистрацВходE",
+  "className": "РегистрацВходE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probasem-регистрац-вход",
+      "modelProjection": "РегистрацВходE"
+    }
+  ]
+}

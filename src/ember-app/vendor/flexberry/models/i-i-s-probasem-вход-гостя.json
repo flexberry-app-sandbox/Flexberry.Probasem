@@ -1,0 +1,60 @@
+﻿{
+  "name": "IISProbasemВходГостя",
+  "modelName": "i-i-s-probasem-вход-гостя",
+  "className": "ВходГостя",
+  "nameSpace": "IIS.Probasem",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регисКартГостей",
+      "relatedTo": "i-i-s-probasem-регис-карт-гостей",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регистрацВход",
+      "relatedTo": "i-i-s-probasem-регистрац-вход",
+      "inverse": "входГостя"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВходГостяE",
+      "modelName": "i-i-s-probasem-вход-гостя",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Дата",
+          "lookupValueField": "дата",
+          "relationName": "РегисКартГостей",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "дата",
+              "caption": "Дата",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Регис карт гостей",
+          "name": "регисКартГостей",
+          "relatedTo": "i-i-s-probasem-регис-карт-гостей",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

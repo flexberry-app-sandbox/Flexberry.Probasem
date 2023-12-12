@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Гость",
+      "projection": "ГостьL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Комната",
+      "projection": "КомнатаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Карта",
+      "projection": "КартаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Регис карт гостей",
+  "name": "IISProbasemРегисКартГостейE",
+  "className": "РегисКартГостейE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probasem-регис-карт-гостей",
+      "modelProjection": "РегисКартГостейE"
+    }
+  ]
+}
